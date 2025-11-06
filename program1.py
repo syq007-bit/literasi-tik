@@ -34,6 +34,7 @@ def selisih_waktu(jam_mulai,menit_mulai,detik_mulai,jam_akhir,menit_akhir,detik_
         jam_akhir-=1
     selisih_jam = jam_akhir- jam_mulai
     return selisih_jam,selisih_menit,selisih_detik
+print("====data perubahan waktu===")
 print("input mulai")
 jam_mulai = input_jam_mulai()
 menit_mulai = input_menit_mulai()
@@ -45,4 +46,4 @@ detik_akhir= input_detik_akhir()
 selisih_hour,selisih_minute,selisih_secound = selisih_waktu(jam_mulai,menit_mulai,detik_mulai,jam_akhir,menit_akhir,detik_akhir)
 print(f"selisih waktu adalah {selisih_hour}jam {selisih_minute}menit {selisih_secound}detik")
 
-print("selamat berjuang sukses")
+print("selamat berjuang sukses ^-^")
