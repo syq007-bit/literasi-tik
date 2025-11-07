@@ -45,5 +45,5 @@ menit_akhir= input_menit_akhir()
 detik_akhir= input_detik_akhir()
 selisih_hour,selisih_minute,selisih_secound = selisih_waktu(jam_mulai,menit_mulai,detik_mulai,jam_akhir,menit_akhir,detik_akhir)
 print(f"selisih waktu adalah {selisih_hour}jam {selisih_minute}menit {selisih_secound}detik")
-
+print("terima kasih sudah mengakses")
 print("selamat berjuang sukses ^-^")
